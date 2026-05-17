@@ -1,0 +1,4 @@
+name: session-log
+kind: standalone
+version: 0.1.0
+description: Record full conversation history for every session
