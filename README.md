@@ -11,6 +11,20 @@ Hermes Agent 插件，自动记录每个 session 的对话内容。
 
 ## 安装
 
+### 一键安装
+
+```bash
+bash <(curl -sL https://raw.githubusercontent.com/i2534/hermes-session-log/main/setup.sh)
+```
+
+指定仓库地址：
+
+```bash
+bash <(curl -sL https://raw.githubusercontent.com/i2534/hermes-session-log/main/setup.sh) https://github.com/你的fork/hermes-session-log.git
+```
+
+### 手动安装
+
 ```bash
 mkdir -p ~/.hermes/plugins/session-log
 cp plugin.yaml __init__.py ~/.hermes/plugins/session-log/
